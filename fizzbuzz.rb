@@ -7,7 +7,6 @@ def fizzbuzz(int)
     
   if int % 15 == 0
     return "FizzBuzz"
-    end
       end
 end
   # Don't forget! This file needs to be 'required' in its spec file
