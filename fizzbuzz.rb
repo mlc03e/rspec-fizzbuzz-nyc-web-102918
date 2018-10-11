@@ -1,11 +1,11 @@
-def fizzbuzz(x)
-  if x / 3 
+def fizzbuzz(int)
+  if int % 3 == 0
     return "Fizz"
     
-  if x / 5
+  if int % 5 == 0
     return "Buzz"
     
-  if x / 15
+  if int % 15 == 0
     return "FizzBuzz"
       
   end
